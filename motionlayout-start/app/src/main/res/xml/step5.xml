@@ -57,7 +57,11 @@
                 app:motionTarget="@id/moon" />
 
 
-            <!-- TODO: Add KeyAttribute to delay the appearance of @id/credits -->
+            <!-- Add KeyAttribute to delay the appearance of @id/credits -->
+            <KeyAttribute
+                android:alpha="0.0"
+                app:framePosition="85"
+                app:motionTarget="@id/credits" />
 
         </KeyFrameSet>
     </Transition>
